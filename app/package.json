@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "electron",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "start"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Christian Rivera",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-mysql": "^0.4.2"
+  }
+}
